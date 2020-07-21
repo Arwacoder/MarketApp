@@ -69,8 +69,12 @@ func saveCategoryToFirebase(_ category: Category) {
 // Mark: Helpers
 
 func categoryDictionaryFrom(_ category: Category) -> NSDictionary {
-    return NSDictionary(objects: [category.id, category.name, category.imageName], forKeys: [kObjectId as NSCopying, kName as NSCopying, kImageName as NSCopying])
+    return NSDictionary(objects: [category.id, category.name, category.imageName!], forKeys: [kObjectId as NSCopying, kName as NSCopying, kImageName as NSCopying])
 }
+
+
+
+
 
 //use only one time
 //func createCategorySet() {

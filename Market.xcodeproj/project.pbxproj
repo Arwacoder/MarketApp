@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A43658924BC228900751B1D /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A43658824BC228900751B1D /* AddItemViewController.swift */; };
 		7A47B1192424534700D1A139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47B1182424534700D1A139 /* AppDelegate.swift */; };
 		7A47B11B2424534700D1A139 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47B11A2424534700D1A139 /* SceneDelegate.swift */; };
 		7A47B12F242498AF00D1A139 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47B12E242498AF00D1A139 /* CategoryCollectionViewCell.swift */; };
 		7A47B133242538A300D1A139 /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47B132242538A300D1A139 /* FirebaseCollectionReference.swift */; };
 		7A47B1382426803600D1A139 /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47B1372426803500D1A139 /* CategoryCollectionViewController.swift */; };
 		7A47B13A2426988A00D1A139 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A47B1392426988A00D1A139 /* Category.swift */; };
-		7A48DC262426D33300FAC4E3 /*  Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A48DC252426D33300FAC4E3 /*  Constants.swift */; };
+		7A48DC262426D33300FAC4E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A48DC252426D33300FAC4E3 /* Constants.swift */; };
+		7A4D9FF6244625FE00530D8F /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4D9FF5244625FE00530D8F /* ItemsTableViewController.swift */; };
+		7A9FEC2C244CDAAE002C0E80 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FEC2B244CDAAE002C0E80 /* Item.swift */; };
 		7AB5C466242BBECB00404EE0 /* EmptyDataSet_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB5C465242BBECB00404EE0 /* EmptyDataSet_Swift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		7AB5C46F242EB39F00404EE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A47B13024249D2600D1A139 /* GoogleService-Info.plist */; };
 		7AB5C470242EB3E000404EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A47B1232424534B00D1A139 /* LaunchScreen.storyboard */; };
@@ -50,6 +53,7 @@
 /* Begin PBXFileReference section */
 		56B225FF4E15FBFAC8526496 /* Pods-Market.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Market.release.xcconfig"; path = "Target Support Files/Pods-Market/Pods-Market.release.xcconfig"; sourceTree = "<group>"; };
 		5DBE413B9443128869DE1132 /* Pods-Market.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Market.debug.xcconfig"; path = "Target Support Files/Pods-Market/Pods-Market.debug.xcconfig"; sourceTree = "<group>"; };
+		7A43658824BC228900751B1D /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		7A47B1152424534700D1A139 /* Market.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Market.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A47B1182424534700D1A139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A47B11A2424534700D1A139 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +66,9 @@
 		7A47B132242538A300D1A139 /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
 		7A47B1372426803500D1A139 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
 		7A47B1392426988A00D1A139 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		7A48DC252426D33300FAC4E3 /*  Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Constants.swift"; sourceTree = "<group>"; };
+		7A48DC252426D33300FAC4E3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7A4D9FF5244625FE00530D8F /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		7A9FEC2B244CDAAE002C0E80 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		7AB5C465242BBECB00404EE0 /* EmptyDataSet_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EmptyDataSet_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB5C479242FB78F00404EE0 /* absl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = absl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB5C47B242FB78F00404EE0 /* EmptyDataSet_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EmptyDataSet_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,10 +154,13 @@
 			children = (
 				7A47B1182424534700D1A139 /* AppDelegate.swift */,
 				7A47B11A2424534700D1A139 /* SceneDelegate.swift */,
-				7A47B1372426803500D1A139 /* CategoryCollectionViewController.swift */,
-				7A47B12E242498AF00D1A139 /* CategoryCollectionViewCell.swift */,
+				7A4D9FF5244625FE00530D8F /* ItemsTableViewController.swift */,
+				7A43658824BC228900751B1D /* AddItemViewController.swift */,
 				7A47B1392426988A00D1A139 /* Category.swift */,
-				7A48DC252426D33300FAC4E3 /*  Constants.swift */,
+				7A47B12E242498AF00D1A139 /* CategoryCollectionViewCell.swift */,
+				7A47B1372426803500D1A139 /* CategoryCollectionViewController.swift */,
+				7A9FEC2B244CDAAE002C0E80 /* Item.swift */,
+				7A48DC252426D33300FAC4E3 /* Constants.swift */,
 				7A47B132242538A300D1A139 /* FirebaseCollectionReference.swift */,
 				7A47B11E2424534700D1A139 /* Main.storyboard */,
 				7A47B1212424534B00D1A139 /* Assets.xcassets */,
@@ -331,8 +340,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A47B1382426803600D1A139 /* CategoryCollectionViewController.swift in Sources */,
-				7A48DC262426D33300FAC4E3 /*  Constants.swift in Sources */,
+				7A9FEC2C244CDAAE002C0E80 /* Item.swift in Sources */,
+				7A48DC262426D33300FAC4E3 /* Constants.swift in Sources */,
+				7A4D9FF6244625FE00530D8F /* ItemsTableViewController.swift in Sources */,
 				7A47B12F242498AF00D1A139 /* CategoryCollectionViewCell.swift in Sources */,
+				7A43658924BC228900751B1D /* AddItemViewController.swift in Sources */,
 				7A47B1192424534700D1A139 /* AppDelegate.swift in Sources */,
 				7A47B133242538A300D1A139 /* FirebaseCollectionReference.swift in Sources */,
 				7A47B11B2424534700D1A139 /* SceneDelegate.swift in Sources */,

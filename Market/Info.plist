@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
-	<key>FirebaseScreenReportingEnabled</key>
-	<false/>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -62,5 +60,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>FirebaseAnalyticsCollectionEnabled</key>
+	<string>No</string>
+	<key>FirebaseAnalyticsCollectionDeactivated</key>
+	<string>yes</string>
+	<key>AnallyticsScreenReportingEnabled</key>
+	<string>false</string>
 </dict>
 </plist>

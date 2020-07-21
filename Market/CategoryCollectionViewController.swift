@@ -11,6 +11,9 @@ import UIKit
 
 class CategoryCollectionViewController: UICollectionViewController {
 
+    
+    
+    
         //Mark: Vars
     var categoryArray: [Category] = []
     
@@ -44,24 +47,41 @@ class CategoryCollectionViewController: UICollectionViewController {
        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CategoryCollectionViewCell
        
-        cell.generateCell(categoryArray[indexPath.row])
+//        cell.generateCell(categoryArray[indexPath.row])
         
         
         return cell
     }
-
+    //MARK: UICOLLECTIONVIEW Delegate
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        performSegue(withIdentifier: "categoryToItemsSeg", sender: categoryArray[indexPath.row])
+        
+        
+        
+        
+    }
         //Mark: Download categories
     private func loadCategories() {
         
         downloadCategoriesFromFirebase { (allCategories) in
-//            print("we have ", allCategories.count)
+            print("we have ", allCategories.count)
             self.categoryArray = allCategories
             self.collectionView.reloadData()
         }
         
     }
+//MARK: Navigation
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "categoryToItemsSeg" {
+            let vc = segue.destination as! ItemsTableViewController
+            vc.category = sender as? Category
+        }
+    }
+    
+    
+    
 }
 extension CategoryCollectionViewController: UICollectionViewDelegateFlowLayout {
     
